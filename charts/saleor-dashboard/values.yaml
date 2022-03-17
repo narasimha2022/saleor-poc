@@ -87,7 +87,8 @@ livenessProbeSettings:
     failureThreshold: 10
     successThreshold: 1
     timeoutSeconds: 2
-  readinessProbeSettings:
+
+readinessProbeSettings:
     enabled: false
     initialDelaySeconds: 60
     periodSeconds: 30
