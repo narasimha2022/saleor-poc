@@ -226,7 +226,7 @@ persistence:
   volumeMode: Filesystem
   claimRef:
     kind: PersistentVolumeClaim
-    namespace: default
+    namespace: saleor
     name: pvvolume
   # Uncomment storageClass: "" to disable dynamic provisioning
   # storageClass: ""
