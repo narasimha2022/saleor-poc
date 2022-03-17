@@ -1,0 +1,25 @@
+# @format
+
+# TODO
+
+postgresql:
+  enabled: true
+  persistence:
+    existingClaim: pgdata-pvc
+
+redis:
+  enabled: true
+  persistence:
+    existingClaim: redis-pvc
+
+nfs-server-provisioner:
+  enabled: true
+
+saleor-core:
+  enabled: true
+
+saleor-storefront:
+  enabled: true
+
+saleor-dashboard:
+  enabled: true
