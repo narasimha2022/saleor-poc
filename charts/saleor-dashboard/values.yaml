@@ -81,20 +81,18 @@ tolerations: []
 affinity: {}
 
 livenessProbeSettings:
-    enabled: false
-    initialDelaySeconds: 60
-    periodSeconds: 30
-    failureThreshold: 10
-    successThreshold: 1
-    timeoutSeconds: 2
+  initialDelaySeconds: 30
+  periodSeconds: 30
+  failureThreshold: 3
+  successThreshold: 1
+  timeoutSeconds: 1
 
 readinessProbeSettings:
-    enabled: false
-    initialDelaySeconds: 60
-    periodSeconds: 30
-    failureThreshold: 10
-    successThreshold: 1
-    timeoutSeconds: 2
+  initialDelaySeconds: 30
+  periodSeconds: 30
+  failureThreshold: 3
+  successThreshold: 1
+  timeoutSeconds: 1
 
 ## Nginx settings
 
