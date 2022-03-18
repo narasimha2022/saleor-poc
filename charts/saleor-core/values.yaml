@@ -224,10 +224,10 @@ persistence:
   accessMode: ReadWriteOnce
   size: 10Gi
   volumeMode: Filesystem
-  claimRef:
-    kind: PersistentVolumeClaim
-    namespace: saleor
-    name: pvvolume
+  #claimRef:
+   # kind: PersistentVolumeClaim
+    #namespace: saleor
+    #name: pvvolume
   # Uncomment storageClass: "" to disable dynamic provisioning
   # storageClass: ""
   # To use an existing PVC rather than have it provisioned by this chart,
