@@ -220,8 +220,8 @@ ingress:
 ## to allow for access to a central shared volume by multiple pods
 
 persistence:
-  enabled: false
-   mountPVC: false
+  enabled: true
+   mountPVC: true
    mountPath: "/"
   accessMode: ReadWriteOnce
   storageClass: "-"
