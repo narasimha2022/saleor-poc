@@ -229,7 +229,7 @@ persistence:
     #namespace: saleor
     #name: pvvolume
   # Uncomment storageClass: "" to disable dynamic provisioning
-  # storageClass: ""
+  storageClass: ""
   # To use an existing PVC rather than have it provisioned by this chart,
   # uncomment and enter below
   #existingPvc: efs-pvc
